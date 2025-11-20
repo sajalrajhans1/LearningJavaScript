@@ -43,7 +43,28 @@ console.log(Object.keys(tinderUser)); // gives all the keys
 console.log(Object.values(tinderUser)); // Gives all the values 
 console.log(Object.entries(tinderUser)); // gives all the entries
 
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
 
+// way to destructure object
+const {courseInstructor : instructor} = course
+console.log(instructor);
 
+// curly braces ka syntax dikhega objects ke aspas toh samjh jana hai ki destructuring hori hai
 
+//API introduction:
 
+// {
+//     "name"; "sajal",
+//     "courseName": "js in hindi",
+//     "price" : "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
