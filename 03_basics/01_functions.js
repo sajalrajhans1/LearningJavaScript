@@ -29,3 +29,34 @@ function loginUserMessage(username){
 }
 
 console.log(loginUserMessage());
+
+function calculateCartPrice(...num1){
+    return num1
+}
+
+console.log(calculateCartPrice(200, 400, 500, 2000)) // all these parameters can be put in the function
+
+const user = {
+    username :"sajal",
+    price: 200
+}
+
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+// handleObject(user)
+
+handleObject({
+    username : "Sam",
+    price: 399
+})
+
+const myNewArray = [200, 400, 100]
+
+function returnSecondValue(getArray){
+    return getArray[i]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.timeLog(returnSecondValue([200, 400, 500, 2000]));
